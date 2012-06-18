@@ -1,0 +1,540 @@
+html, body{
+  background:#ffffff;
+}         </style><script type="text/javascript">$(document).ready(function(){
+  $('#email').placeholder();
+});</script><script type="text/javascript">$(document).ready(function(){   
+  KOL_Branding.addBranding('http:&#47;&#47;www.kickofflabs.com&#47;?a=user8317&amp;utm_campaign=8317&amp;utm_content=bar&amp;utm_medium=branding&amp;utm_source=customer')
+});</script><style>/*--Transparent background layer--*/
+#fade { 
+    display: none; /*--hidden by default--*/
+    background: #000;
+    position: fixed; left: 0; top: 0;
+    width: 100%; height: 100%;
+    opacity: .60;
+    z-index: 9999;
+}
+
+#share_links
+{
+    height:25px;
+}
+
+
+/* Global Styles
+----------------------------------------------------------------------------------------------------*/
+
+html { font-size: 100.01%; }
+body { color: #565656; font:14px/1.5 Arial, Helvetica, sans-serif;min-width:600px; }
+p { line-height: 150%; margin: 0 0 10px; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+sup, sub { line-height: 0; }
+abbr, acronym { border-bottom: 1px dotted #666; }
+address { margin: 0 0 10px; font-style: italic; }
+del { color: #666; }
+pre { margin: 10px 0; white-space: pre; }
+pre, code, tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
+li ul, li ol { margin: 0; }
+ul, ol { margin: 0 0 10px 0; padding-left: 3.333em; }
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
+dl { margin: 0 0 10px 0; }
+dl dt { font-weight: bold; }
+dd { margin-left: 10px; }
+table { margin-bottom: 10px; width: 100%; }
+th { font-weight: bold; }
+thead th { background: #eeeeee; }
+th, td, caption { padding: 4px 10px 4px 5px; }
+tr.even td { background: #eeeeee; }
+tfoot { font-style: italic; }
+caption { background: #eee; }
+hr {
+border: 0 #ccc solid;
+border-top-width: 1px;
+clear: both;
+height: 0;
+}
+
+/* Typography
+----------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'AvenirRegular';
+    src:url('/assets/themes/Avenir/font/avenir-light-webfont-67622509d1d98bda8a1107d2084de155.eot');  /* IE6�8 */
+    src:local('avenir-light-webfont'),
+    url('/assets/themes/Avenir/font/avenir-light-webfont-14e89b0a64d37891133579fe977b42c4.woff') format('woff'),  /* FF3.6, IE9 */
+    url('/assets/themes/Avenir/font/avenir-light-webfont-c4ffe4c97a7200619d65834b159d70c3.ttf') format('truetype');  /* Saf3+, Chrome, FF3.5, Opera 10+ */
+}
+
+.site_body h1 {
+font-size: 36px;
+}
+
+.site_body h2 {
+font-size: 30px;
+}
+
+.site_body h3 {
+font-size: 24px;
+}
+
+.site_body h4 {
+font-size: 16px;
+}
+
+.site_body h5 {
+font-size: 14px;
+}
+.site_body 
+h6 {
+font-size: 12px;
+}
+
+.site_body h1, .site_body h2,.site_body  h3,.site_body  h4,.site_body  h5,.site_body  h6 { 
+  font-weight: normal; 
+  line-height: 100%;
+  margin-bottom: 10px; 
+}
+
+.site_body h6 { 
+  text-transform: uppercase;
+  letter-spacing: 1px; 
+}
+
+blockquote
+{
+    margin-left: 10px;
+    font-style: italic;
+}
+
+
+/*Specific Items */
+.title {
+  font-weight:bold;
+  font:18px 'AvenirRegular', Arial, Helvetica, sans-serif;  
+} 
+
+.container { width: 600px; margin: 0 auto; padding: 0; position:relative;}
+
+a {
+    text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+
+#header {
+    margin-top:35px;
+    padding-top:55px;
+    background-image:url('/assets/themes/Avenir/bg-header-13136dfe9b85f2cd7333070e40a26f31.png');
+    background-position: 0 100%; 
+    background-repeat:no-repeat;
+    padding-bottom:33px;
+    -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+}
+ .logo {
+    margin:0 0 5px;
+    font-family:'AvenirRegular', Arial, Helvetica, sans-serif;
+  font-size: 60px !important;
+}
+
+.logo a,
+.logo a:link,
+.logo a:active,
+.logo a:visited {
+    display:block;
+    height:100%;
+    text-decoration:none;
+}
+
+
+#content {
+  padding-top:15px;
+  padding-bottom:30px;
+    background-image:url('/assets/themes/Avenir/bg-header-13136dfe9b85f2cd7333070e40a26f31.png');
+    background-position: 0 100%; 
+    background-repeat:no-repeat;
+
+}
+#content .section {
+    margin-bottom:25px;
+}
+
+
+
+#content .box-info h2 {margin:0 0 18px;}
+
+.signup_form {
+    margin:0 0 35px;
+    width:468px;
+}
+
+.signup_form .row {
+    width:100%;
+    overflow:hidden;
+    margin:0 0 0 -3px;
+}
+
+input::-webkit-input-placeholder {
+    color:    #CCC;
+}
+input:-moz-placeholder {
+    color:    #CCC;
+}
+
+#footer_inner
+{
+  padding-top:15px;
+}
+
+#footer_inner p
+{
+  margin:0px;
+}
+
+#site_thankyou
+{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#share_facebook, 
+#share_twitter, 
+#share_linked_in, 
+#share_google
+{
+  margin-right:5px;
+}
+
+
+.container {
+
+    padding:0 8px;
+}
+#content .container h2 {margin:0 0 14px;}
+#footer {
+    font-size:12px;
+    letter-spacing:1px;
+    height:40px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    -webkit-border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+} 
+.wide_wrapper
+{
+  width:580px;
+  margin-left:auto;
+  margin-right:auto;
+}     
+.narrow_wrapper
+{
+  width:460px;
+  margin-left:auto;
+  margin-right:auto;
+}   
+
+#description p 
+{
+  font-size:14px;
+  margin-bottom:20px;
+}  
+.container #Twitter , .container #Facebook 
+{
+  float:right;
+  margin-right:5px;
+}
+
+
+#socialmessage, #follow_links
+{
+  float:left;
+}
+
+#socialmessage h3{
+  margin-top: 3px;
+  font-size:18px;
+}
+#socialnetworks
+{
+  float:right;
+  padding-top:2px;
+}
+
+#privacy
+{
+  margin-left:5px;
+}
+
+.footer_right {
+  float:right;
+}
+
+
+.signup_form .txt {
+    vertical-align:middle;
+    font:italic 18px Arial, Helvetica, sans-serif;
+    background:#fff;
+    width:260px;
+    height:23px;
+    padding:11px 6px;
+    float:left;
+    -webkit-box-shadow:0 0 4px #4b4b4b;
+    -moz-box-shadow:0 0 4px #4b4b4b;
+    box-shadow:0 0 4px #4b4b4b;
+    margin:4px;
+}
+
+.signup_form .button, 
+.signup_form .button:active, 
+.signup_form .button.active {
+     float:right;
+     width: 151px;
+  height: 55px;
+  margin-top: 3px;
+  margin-left:4px;
+  font-size:18px;   
+
+}
+
+#thanks {
+ text-align:left;
+    font-size:14px;
+    margin-top: 20px;
+    display:none;
+ margin-bottom:20px;
+ padding: 10px;
+ -webkit-box-shadow: 0 0 4px #4b4b4b;
+ -moz-box-shadow: 0 0 4px #4b4b4b;
+ box-shadow: 0 0 4px #4b4b4b;     
+  position:relative;
+    z-index: 99998;
+}
+
+#social
+{
+  padding-top:36px;
+}</style><style>/*Conditionals & site specific settings*/ 
+.site_body
+{
+    color:#666666;
+}
+
+
+
+a {
+    color:#90b936;
+}
+
+.signup_form .txt {
+    border:4px solid #A4CB4C;
+}
+
+
+.signup_form .button:hover
+{
+     background-color: #719819 !important;
+   background: -o-linear-gradient( #719819,#A4CB4C) !important;
+background: linear-gradient( #719819,#A4CB4C) !important;
+background: -moz-linear-gradient(top,  #719819,#A4CB4C);
+/* webkit based browsers */
+background: -webkit-gradient(linear, left top, left bottom, from(#719819 ), to(#A4CB4C)) !important;
+
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#719819, endColorstr=#A4CB4C)!important;
+/* For Internet Explorer 8 & 9 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#719819, endColorstr=#A4CB4C)"!important;
+
+}  
+
+.signup_form .button, 
+.signup_form .button:active, 
+.signup_form .button.active {
+     border-color: #A4CB4C !important;
+  color:#FEFEFE !important;
+       text-shadow: 0 1px #444444 !important;  
+   background-color: #A4CB4C !important;
+  background: -o-linear-gradient( #A4CB4C,#719819) !important;
+background: linear-gradient( #A4CB4C,#719819) !important;
+background: -moz-linear-gradient(top,  #A4CB4C,#719819);
+/* webkit based browsers */
+background: -webkit-gradient(linear, left top, left bottom, from(#A4CB4C ), to(#719819)) !important;
+
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A4CB4C, endColorstr=#719819)!important;
+/* For Internet Explorer 8 & 9 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A4CB4C, endColorstr=#719819)"!important;
+}
+
+
+
+
+#thanks {
+ border: 4px solid #A4CB4C;
+    background-color:#ffffff;
+}
+
+#social
+{
+  border-top: 1px solid #999999;
+}
+
+
+
+
+
+  /*  #Mobile (Portrait) 
+  ================================================== */
+  /* Note: Design for a width of 320px */
+
+  @media only screen and (max-device-width: 767px) {
+    body{
+      min-width:300px;
+    }			
+
+    a#kickoff_branding_bar 
+    {
+      width:300px;
+    }
+
+    #footer_follow, #follow_links {
+      margin:0px !important;
+    }
+
+    .section .signup_form .txt {
+      width:250px;
+    }
+
+    #logo_tagline, 
+    #social, 
+    #footer_inner
+    {
+      padding: 10px 10px !important;
+    }
+
+    .row,
+    #social,
+    .section,
+    .signup_form,
+    .narrow_wrapper
+    {
+      width:300px !important;
+      margin: 0 0 !important;
+    }
+
+    .site_body,
+    #footer,
+    .container,
+    .wide_wrapper
+    {
+      width:320px !important;
+    }
+
+    .frame{
+      width:280px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+     .signup_form .button{
+        margin-bottom:10px !important;
+      }
+
+      #share_facebook iframe
+      {
+          width:110px !important;
+      }
+
+  }
+
+  /* #Mobile (Landscape)
+  ================================================== */
+    /* Note: Design for a width of 480px */
+  @media only screen and (min-device-width: 480px) and (max-device-width: 767px)
+  {
+
+    body{
+      min-width:420px;
+    }
+
+    #row,
+    #social,
+    #footer_inner,
+    .section,
+    .container, 
+    .wide_wrapper,
+    .signup_form,
+    .narrow_wrapper,
+    #footer .narrow_wrapper
+    {
+      width:420px;
+    }	
+
+    a#kickoff_branding_bar {
+      width:420px;
+    }
+
+
+  }
+
+  /* Mobile Only */
+  @media only screen and (max-device-width: 767px) and (max-device-width: 1000px)
+  {
+
+    #header{
+      padding-top:35px;
+    }
+
+    .logo{
+      font-size:36px !important;
+         margin:0 0 0px !important;
+    }
+
+
+    #follow_links
+    {
+      float: left;
+    }
+
+    .site_body, 
+    wide_wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+    .signup_form .txt {
+      width:250px !important;
+    }
+
+    #socialnetworks, 
+    .signup_form .box-btn {
+      float:left;
+    }
+    #copyright{
+      float:left;
+    }
+
+    #footer{
+      height:100px;
+      position: static;
+    }
+
+    .container{
+      padding: 0px 0px !important;
+    }
+
+    #content, 
+      #header {
+          background-image:url('/assets/themes/Avenir/bg-header-mobile-834772d9dd4266fe365f0dfc7a14be41.png');
+      }
+
+}
